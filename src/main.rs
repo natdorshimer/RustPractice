@@ -19,6 +19,5 @@ fn main() {
             ProgramState::DeleteUser => console_db_module.delete_user(),
             ProgramState::Exit => break,
         }
-        continue;
     }
 }
